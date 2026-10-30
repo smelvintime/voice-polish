@@ -46,6 +46,14 @@ The inventory. Only marks listed here are used; any other mark is converted. Con
 The only stories usable when drafting, with only the details given in the samples. Add new ones only when the user shares them.
 - [story: the details given, and which sample it came from]
 
+## Plain-word swaps
+Words the user would not use, each with the word to use instead. Add a pair whenever the user flags a word as too AI-looking or too advanced.
+- (none yet)
+
+## Korean voice
+How the user writes in Korean, from Korean samples only. Same parts as the English sections: speech level by situation (반말, 해요체, 합니다체, 한다체), favorite words and endings, sentence length, connectives, texture marks (ㅋㅋ, ㅎㅎ, ^^, ~), spacing and spelling habits, and 2 to 4 short verbatim exemplars.
+- Not set up yet: no Korean samples. Ask for 2 or 3 pieces written in Korean the first time a Korean rebuild or draft is needed.
+
 ## Corrections log
 Highest authority in this file. Add a dated entry whenever the user pushes back on an edit or draft.
 - (none yet)

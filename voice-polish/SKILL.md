@@ -1,6 +1,6 @@
 ---
 name: voice-polish
-description: Make text sound like the user wrote it, or write something new that sounds like them, using a voice profile trained on their own essays and emails. Use this whenever the user pastes text (their own rough draft, an AI draft, someone else's wording, or notes) and wants it fixed, fixed up, cleaned up, polished, proofread, rewritten, made more readable or more professional, or made to "sound like me." Also use whenever they ask for something new written or answered in their voice ("write it the way I would," "reply as me," "answer this like I would," "in my voice"), including emails, messages, discussion posts, and essays. Trigger even on terse requests like "fix up" attached to pasted text. Also use when the user wants to set up or train their voice profile, shares essays or writing samples to teach their style, or pushes back on how an edit or draft changed their wording.
+description: Make text sound like the user wrote it, or write something new that sounds like them, in English or Korean. Use whenever the user pastes text (their own rough draft, an AI draft, someone else's wording, or notes) and wants it fixed, cleaned up, polished, proofread, rewritten, made more professional, or made to "sound like me"; whenever they ask for something written or answered in their voice ("write it the way I would," "reply as me," "in my voice," "내 말투로"); and whenever they share a reference such as an article and want writing done in that format but in their own words. Trigger even on terse requests like "fix up," "고쳐 줘," or "다듬어 줘" attached to pasted text. Also use when they want to set up or train their voice profile, flag a word as too AI or too advanced, share writing samples, or push back on how an edit changed their wording.
 ---
 
 # Voice Polish
@@ -20,7 +20,7 @@ Read `references/voice-profile.md`. If its first line still says `STATUS: NOT SE
 
 ## Setup: training the profile on their writing
 
-1. **Ask for samples.** Request 3 to 5 pieces they wrote carefully themselves, ideally a mix: essays or papers, plus a few emails or longer messages. Around 1,500 words or more in total gives a good start. Only their own writing: nothing an AI or someone else polished, since that would teach the wrong voice. Quick texts are optional and only teach typo habits. Ask what each piece is (class essay, application essay, work email) so registers can be told apart.
+1. **Ask for samples.** Request 3 to 5 pieces they wrote carefully themselves, ideally a mix: essays or papers, plus a few emails or longer messages. Around 1,500 words or more in total gives a good start. Only their own writing: nothing an AI or someone else polished, since that would teach the wrong voice. Quick texts are optional and only teach typo habits. Ask what each piece is (class essay, application essay, work email) so registers can be told apart. Ask which languages they write in: if they write in Korean too, ask for 2 or 3 Korean pieces for the Korean voice section, and if they only write in Korean, the Korean samples are the whole profile.
 2. **Build the profile.** Fill in every section of the template from the samples alone, with short verbatim quotes as evidence. Record patterns, not one-off quirks. Where the samples show nothing for a section, write "not enough samples yet" rather than guessing.
    - **Punctuation inventory:** list the marks they actually use. A mark that never appears across the samples is foreign. Ask them to confirm the list, since it is enforced strictly.
    - **Personal stories on record:** list only stories that appear in the samples, with only the details given there.
@@ -40,6 +40,8 @@ Read the profile before writing anything, for both jobs. It records how the user
 
 - Pasted text plus any fix, polish, rewrite, or "sound like me" request is Job 1.
 - A question to answer, a message to reply to, or a piece to write, with a signal that it should sound like them, is Job 2. A plain "write me an email about X" with no voice signal is an ordinary drafting request, and this skill should not hijack it.
+- Either job can come with a reference document (an article, a sample of the kind of writing they want). Then the reference sets the format; see "Reference documents."
+- Korean text or a Korean request follows the same steps; see "Korean."
 - Before writing, check that you have what the piece needs. If something important is missing, see "When to ask."
 
 ## Job 1: Rewrite as me
@@ -91,6 +93,49 @@ The user and the request supply the content; the profile supplies only the voice
 - **No made-up content.** Never invent facts, names, dates, numbers, quotes, citations, commitments, or opinions they did not give. A personal story or example is usable only if it is listed in the profile's stories on record, or the user gives it in this conversation. If none fits, there is no story to use: write the point without one, leave a [bracketed placeholder], or ask.
 - The test: set it next to the profile's exemplars and it should read like their sibling, something the user could have typed on a good day.
 
+## Reference documents: borrow the format, keep the voice
+
+Sometimes the user shares a reference, such as an article, a blog post, a cover letter, a speech, or a report, and asks for something written or rewritten "in this format," "like this," or "the same way." Different kinds of writing have different shapes, and an article is built differently from a school paragraph. The reference supplies the **form**, the profile supplies the **voice**, and the user supplies the **content**.
+
+Take from the reference (form):
+- The kind of writing and its structure: headline, opening hook or lede, subheadings, section order, how it opens and closes
+- Paragraph length and count, and overall length
+- Point of view and tense (first person, "you," third person)
+- How points are set up and supported: where examples, quotes, or numbers sit and how sections hand off to each other
+- Formatting: lists, bold, captions, bylines, Q&A blocks
+- The register of the genre, as a target on the user's own ladder (see below)
+
+Do not take from the reference (voice and content):
+- Its vocabulary, signature phrases, or fancy words. Formality comes from the structure, not from the words
+- Its facts, quotes, numbers, or examples, unless the user says to use them as a source. Then quote and credit them as a source would be quoted
+- Punctuation outside the user's inventory
+
+Word choice stays theirs. When a sentence seems to call for a big or AI-looking word, use the plain word the user would actually use. If the genre needs a level above everything on their ladder, write at the top of their own careful register; a reference never licenses words they would not use.
+
+Working rules:
+- Read the whole reference first and note its structure before writing. After the output, add one short line naming the format features you borrowed (for example: "Format from the reference: headline, two-sentence hook, three subheaded sections, short closing line"), so the user can correct it.
+- If the reference is ambiguous about what to copy (it mixes a news section and an opinion section, say), ask which part they mean.
+- It is temporary. The reference applies to this conversation until the user says to stop or shares a new one. Never learn style from it into the voice profile and never add its excerpts to the profile, since it is not the user's own writing.
+- Job 1 and Job 2 both work with a reference. Rewriting into a new format is always a rebuild, never the light touch, but every content rule still holds.
+
+## Plain-word swaps
+
+Some words read as AI-written or simply too advanced for how the user talks. Common offenders: utilize, leverage, delve, pivotal, crucial, robust, seamless, foster, bolster, navigate (for "deal with"), landscape, realm, tapestry, multifaceted, showcase, underscore, embark, endeavor, plethora, Moreover, Furthermore, Additionally, In conclusion. Never introduce them, in any job or format, unless the profile shows the user uses that word at that register.
+
+When the user flags a word ("this sounds too AI," "I'd never say that word," "too advanced"), swap it for the plainest word that keeps the meaning, in the profile's vocabulary, and add the pair to the profile's Plain-word swaps list so it never comes back.
+
+## Korean (한국어)
+
+Everything in this skill applies to Korean the same way: both jobs, reference documents, plain-word swaps, the no-made-up-content rule, when to ask, the punctuation inventory, and the final sweep.
+
+- **Language:** work in the language of the text being rewritten. For Job 2, use the language the user asks for, or the one they wrote the request in. Never translate unless asked. Keep English words and Konglish the way the user mixes them in.
+- **Voice source:** a Korean voice comes from Korean samples, kept in the profile's "Korean voice" section. English samples transfer only general traits: vocabulary level, how often they hedge, sentence-length swing, directness, and humor. Never carry English phrasing over literally.
+- **No Korean samples yet:** for Job 1 at the light touch, the pasted Korean text is the style guide, so go ahead. For a rebuild or for Job 2, ask once for 2 or 3 things they wrote in Korean themselves (KakaoTalk messages, emails, school writing) and add them to the Korean voice section the same way as any samples. If they would rather not, write plain, natural Korean at the register the piece needs and say in one line that it is not tuned to their Korean voice yet.
+- **Always fixed (Korean mechanics):** 맞춤법 (되/돼, 안/않, 데/대, 로서/로써, 든지/던지, 웬/왠, 금세, 어떡해/어떻게), 띄어쓰기 (dependent nouns such as 것, 수, 때, 만큼, 뿐, 데 are spaced; particles attach to the word before them; 하다 verbs stay joined), particle errors, tense, honorific agreement (the -시- subject honorific and endings that match), and keyboard or 자모 typos.
+- **Register is the speech level:** 반말 for close friends and family, 해요체 for everyday polite, 합니다체 for formal speech and formal emails, and 한다체 (plain -다 endings) for essays, reports, and articles. Keep the speech level the user wrote in and never switch it unless asked. A reference article will usually be in 한다체; that is form, so take it from the reference.
+- **Korean AI tells to avoid:** stacked connectives (또한, 더불어, 나아가, 아울러, 뿐만 아니라, 이를 통해, 결론적으로); heavy Sino-Korean or abstract words where a plain native word works (활용하다 for 쓰다, 도모하다, 제고하다, 함양하다, 극대화, 시사하는 바가 크다); translationese (~에 있어서, ~을 가지다 for "have," ~에 의해 passives, 되어지다, piling up 그/그녀/그들, sentences ending again and again in ~것이다); and tidy three-part lists. Plain-word swaps work the same way in Korean: flagged words go on the swap list.
+- **Texture is voice:** ㅋㅋ, ㅎㅎ, ^^, ~, !!, and trailing ... are part of how many people write in Korean. Keep them where the user uses them, never add them where they do not, and list them in the punctuation inventory once they show up in samples.
+
 ## When to ask
 
 Asking for direction is welcome; guessing on things that matter is not. Ask in one short round, batching the questions and using AskUserQuestion where it is available, when:
@@ -121,7 +166,7 @@ The profile's Punctuation section is an inventory, not a description of tendenci
 
 These are the tells of AI-smoothed text. Never introduce them, in either job:
 
-- Upgraded vocabulary: "use" to "utilize," "so" to "therefore," "help" to "facilitate," "big" to "significant"
+- Upgraded vocabulary (see Plain-word swaps): "use" to "utilize," "so" to "therefore," "help" to "facilitate," "big" to "significant"
 - Added transitions the user does not use: "Moreover," "Furthermore," "Additionally," "In conclusion"
 - Restructuring into topic-sentence essay form, or merging their short lines and paragraphs
 - Any mark outside the punctuation inventory

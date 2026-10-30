@@ -7,6 +7,12 @@ A Claude skill that makes writing sound like you. It does two things:
 
 It learns your voice from your own essays and emails. It never makes up stories or facts about you, and it asks when it needs details.
 
+It also does:
+
+- **Match a format:** share an article (or any example) and say "write this in the same format." It copies the shape, like the headline, sections, and paragraph length, but keeps your own words.
+- **Swap fancy words:** say "this word sounds too AI" or "too advanced," and it swaps in the word you'd actually use and remembers not to use it again.
+- **Korean (한국어):** everything works in Korean too. Share a few things you wrote in Korean so it learns your Korean voice, including how you use 반말 or 존댓말 and things like ㅎㅎ or ^^.
+
 ## Install
 
 Download `voice-polish.zip` from the [latest release](https://github.com/smelvintime/voice-polish/releases/latest).
@@ -17,7 +23,7 @@ Download `voice-polish.zip` from the [latest release](https://github.com/smelvin
 
 ## Train it on your writing
 
-Start a chat and say **"set up my voice profile."** Then paste 3 to 5 things you wrote yourself, such as essays, papers, and a few emails. Around 1,500 words or more works well. Use writing nobody else (and no AI) polished.
+Start a chat and say **"set up my voice profile."** Then paste 3 to 5 things you wrote yourself, such as essays, papers, and a few emails. Around 1,500 words or more works well. Use writing nobody else (and no AI) polished. If you write in Korean, include 2 or 3 Korean pieces too. You can also start in Korean: **"내 말투 프로필 만들어 줘."**
 
 Claude builds your profile, shows you a short summary to check, and saves it:
 
