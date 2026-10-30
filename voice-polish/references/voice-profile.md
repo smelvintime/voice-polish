@@ -46,6 +46,10 @@ The inventory. Only marks listed here are used; any other mark is converted. Con
 The only stories usable when drafting, with only the details given in the samples. Add new ones only when the user shares them.
 - [story: the details given, and which sample it came from]
 
+## Glossary
+Terms of art the user has given or corrected: industry terms, official names (customs and HS code item names, government terms), and product names. Each entry: the term in each language, and the context it applies to. These always win over other word choices.
+- (none yet)
+
 ## Plain-word swaps
 Words the user would not use, each with the word to use instead. Add a pair whenever the user flags a word as too AI-looking or too advanced.
 - (none yet)

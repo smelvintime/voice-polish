@@ -1,15 +1,17 @@
 # Voice Polish
 
-A Claude skill that makes writing sound like you. It does two things:
+A Claude skill that makes writing sound like you. It does three things:
 
 1. **Rewrite as me:** paste text (your rough draft, an AI draft, anything) and get it back sounding like you wrote it.
 2. **Write as me:** ask Claude to write or answer something, and it writes it the way you would.
+3. **Translate (English ↔ Korean):** paste text and say "translate this to Korean" (or English). It reads the context and uses the most natural, common words for that kind of writing, plus the right industry and official terms, like customs (HS code) item names and product names. It keeps codes and numbers exactly as they are, and lists any official term it isn't sure of so you can check it. Translation works right away, even before you set up your voice profile.
 
 It learns your voice from your own essays and emails. It never makes up stories or facts about you, and it asks when it needs details.
 
 It also does:
 
 - **Match a format:** share an article (or any example) and say "write this in the same format." It copies the shape, like the headline, sections, and paragraph length, but keeps your own words.
+- **Remember your terms:** tell it "the official name is X" or "in our industry we say Y," and it saves the term to a glossary and uses it every time. You can also share a glossary or an official term list.
 - **Swap fancy words:** say "this word sounds too AI" or "too advanced," and it swaps in the word you'd actually use and remembers not to use it again.
 - **Korean (한국어):** everything works in Korean too. Share a few things you wrote in Korean so it learns your Korean voice, including how you use 반말 or 존댓말 and things like ㅎㅎ or ^^.
 
